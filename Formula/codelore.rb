@@ -1,28 +1,28 @@
 class Codelore < Formula
   desc "Behavioral code analysis CLI — code-maat compatible, written in Rust"
   homepage "https://github.com/emrecdr/codelore"
-  version "0.3.2"
+  version "0.3.3"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/emrecdr/codelore/releases/download/v0.3.2/codelore-v0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "dbed4ae4f36fa63688670058134fe69ad56ad286821df173657c0f98d8c429b3"
+      url "https://github.com/emrecdr/codelore/releases/download/v0.3.3/codelore-v0.3.3-aarch64-apple-darwin.tar.gz"
+      sha256 "1636dbff1c0a4121b3da9012f5efaa64fbece85126f3e3aefb73a04268dba116"
     end
     on_intel do
-      url "https://github.com/emrecdr/codelore/releases/download/v0.3.2/codelore-v0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "f55671028535d64fb0fc07836c9a43389b1283eb04ed3d57fa221d2ebbc302ea"
+      url "https://github.com/emrecdr/codelore/releases/download/v0.3.3/codelore-v0.3.3-x86_64-apple-darwin.tar.gz"
+      sha256 "ca9a7e5be95492131487d064d4b480ac4dfc719e7f8461a1884d773f9abcdce7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/emrecdr/codelore/releases/download/v0.3.2/codelore-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "35c2c2a5b4c86a4f8da4b48b2b57c6c9cca45d5842ebd7ca4c9375fea889ed62"
+      url "https://github.com/emrecdr/codelore/releases/download/v0.3.3/codelore-v0.3.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5da5c8279ab2a9ec90cc45a736dc4e5cd7e79161fad5b13acaeb8055f5c9f17d"
     end
     on_intel do
-      url "https://github.com/emrecdr/codelore/releases/download/v0.3.2/codelore-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "406068b7488e21e3d7ca7798bf4b592f0ec45a2737988a8b00a1b88a038dd615"
+      url "https://github.com/emrecdr/codelore/releases/download/v0.3.3/codelore-v0.3.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9512399989f7aae067e866af526c1e5abcaa45985fd23c5499daae1943ccdeca"
     end
   end
 
